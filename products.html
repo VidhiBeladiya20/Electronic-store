@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="assets/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Carousel link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid text-center">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown  mx-auto">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Tablets</a></li>
+                            <li><a class="dropdown-item" href="">Computers</a></li>
+                            <li><a class="dropdown-item" href="#">Wearable Tech</a></li>
+                            <li><a class="dropdown-item" href="#">Headphone and Speakers</a></li>
+                            <li><a class="dropdown-item" href="#">T.V and Home Cinema</a></li>
+                            <li><a class="dropdown-item" href="#">Drones and Cameras</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="#">Sale</a>
+                    </li>
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <i class="fa fa-search ms-4 text-center" style="font-size:27px"></i>
+                <i class="fa fa-shopping-cart ms-4 text-center " style="font-size:27px"></i>
+                <i class="fa fa-user-circle text-center text-dark ms-4 me-2" data-toggle="modal" data-target="#myModal"
+                    style="font-size:27px"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h1 id="categName"></h1>
+        <section style="background-color: #eee;">
+            <div class="container py-5">
+                <div class="row" id="product"></div>
+            </div>
+        </section>
+    </div>
+
+
+    <script>
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        }
+        else {
+            xmlhttp = new ActiveXObject();
+        }
+        xmlhttp.open('GET', 'data/products.xml', false)
+        xmlhttp.send();
+        xmlDoc = xmlhttp.responseXML;
+        productDiv = document.getElementById('product');
+        urlStr = window.location.search;
+        urlParam = new URLSearchParams(urlStr);
+        productCategory = urlParam.get('dataType');
+
+        x = productCategory == null ? 'All Products' : productCategory;
+        document.getElementById('categName').innerHTML = productCategory == null ? 'All Products' : productCategory[0].toUpperCase() + productCategory.slice(1,); 
+        if (productCategory != null) {
+            for (i = 0; i < xmlDoc.getElementsByTagName('product').length; i++) {
+                if (xmlDoc.getElementsByTagName('category')[i].childNodes[0].nodeValue == productCategory || xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue == productCategory) {
+                    productDiv.innerHTML += addprod(i)
+                }
+            }
+        }
+                else {
+                    for (i = 0; i < xmlDoc.getElementsByTagName('product').length; i++) {
+                        productDiv.innerHTML += addprod(i)
+                    }
+                }
+            
+        
+
+        function addprod(i) {
+            return `<div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="d-flex justify-content-between p-3">
+
+                        </div>
+                        <img src="img/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" 
+                            class="card-img-top mx-auto" alt="Laptop" />
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <p class="small"><a href="products.html?datatype=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>
+                                <p class="small text-danger"><s>Rs.${xmlDoc.getElementsByTagName('mrp')[i].childNodes[0].nodeValue}</s></p>
+                            </div>
+
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">${xmlDoc.getElementsByTagName('name')[i].childNodes[0].nodeValue}</h5>
+                                <h5 class="text-dark mb-0">Rs.${xmlDoc.getElementsByTagName('offerprice')[i].childNodes[0].nodeValue}</h5>
+                            </div>
+
+                            <div class="d-flex justify-content-between mb-2">
+                                <p class="text-muted mb-0">Available: <span class="fw-bold">${xmlDoc.getElementsByTagName('qty')[i].childNodes[0].nodeValue}</span></p>
+                                <div class="ms-auto text-warning">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            }
+
+
+        
+    </script>
+    <script src="assets/js/js.js"></script>
+</body>
+
+</html>
