@@ -33,6 +33,17 @@
         <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
         <qty>10</qty>
     </product>
+        <product>
+        <id>3</id>
+        <category>mobile</category>
+        <brand>Apple</brand>
+        <name>iPhone 14 Plus</name>
+        <mrp>1,36,000</mrp>
+        <offerprice>86,130</offerprice>
+        <image>img3.webp</image>
+        <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
+        <qty>10</qty>
+    </product>
     <!-- <product>
         <id>4</id>
         <category>mobile</category>

@@ -20,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid text-center">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Power Moves</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -105,13 +105,13 @@
         
 
         function addprod(i) {
-            return `<div class="col-md-4 mb-4 mb-lg-0">
+            return `<div class="col-md-4 mb-4 mb-lg-4">
                     <div class="card">
                         <div class="d-flex justify-content-between p-3">
 
                         </div>
                         <img src="img/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" 
-                            class="card-img-top mx-auto" alt="Laptop" />
+                            class="card-img-top mx-auto" alt="Laptop" height=300 width=300 />
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <p class="small"><a href="products.html?datatype=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>
