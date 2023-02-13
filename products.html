@@ -111,7 +111,7 @@
 
                         </div>
                         <img src="img/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" 
-                            class="card-img-top mx-auto" alt="Laptop" height=400 width=350 />
+                            class="card-img-top mx-auto" alt="Laptop" style="max-width: 250px;aspect-ratio:3/3;object-fit:contain" />
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <p class="small"><a href="products.html?datatype=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>

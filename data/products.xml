@@ -4,22 +4,22 @@
         <id>1</id>
         <category>mobile</category>
         <brand>Apple</brand>
-        <name>iPhone 13</name>
-        <mrp>96,000</mrp>
-        <offerprice>46,130</offerprice>
-        <image>img1.jpg</image>
-        <description>iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.</description>
+        <name>iphone 14 pro max</name>
+        <mrp>1,76,000</mrp>
+        <offerprice>96,130</offerprice>
+        <image>m-iphone14 pro max.jpg</image>
+        <description>The Apple iPhone 14 Pro Max 5G comes with a 6.7-inch ProMotion technology touchscreen, features Crash Detection and a new Truedepth 48-megapixel front camera with Photonic Engine, an extra hour of video playback compared to last year's model and a new Action mode</description>
         <qty>10</qty>
     </product>
     <product>
         <id>2</id>
         <category>mobile</category>
         <brand>Apple</brand>
-        <name>iPhone 14 Pro Max</name>
-        <mrp>1,76,000</mrp>
-        <offerprice>96,130</offerprice>
-        <image></image>
-        <description>The Apple iPhone 14 Pro Max 5G comes with a 6.7-inch ProMotion technology touchscreen, features Crash Detection and a new Truedepth 48-megapixel front camera with Photonic Engine, an extra hour of video playback compared to last year's model and a new Action mode</description>
+        <name>iPhone 13 pro</name>
+        <mrp>96,000</mrp>
+        <offerprice>46,130</offerprice>
+        <image>m-iphone13 pro.jpg</image>
+        <description>iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.</description>
         <qty>10</qty>
     </product>
     <product>
@@ -29,31 +29,75 @@
         <name>iPhone 14 Plus</name>
         <mrp>1,36,000</mrp>
         <offerprice>86,130</offerprice>
-        <image>img3.webp</image>
+        <image>m-iphone14 plus .jpg</image>
         <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
         <qty>10</qty>
     </product>
         <product>
-        <id>3</id>
-        <category>mobile</category>
-        <brand>Apple</brand>
-        <name>iPhone 14 Plus</name>
-        <mrp>1,36,000</mrp>
-        <offerprice>86,130</offerprice>
-        <image>img3.webp</image>
-        <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
-        <qty>10</qty>
-    </product>
-    <!-- <product>
         <id>4</id>
         <category>mobile</category>
         <brand>Apple</brand>
-        <name>iPhone 12</name>
+        <name>iPhone 11 pro max</name>
+        <mrp>1,36,000</mrp>
+        <offerprice>86,130</offerprice>
+        <image>m-iphone11 pro max.jpg</image>
+        <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
+        <qty>10</qty>
+    </product>
+    <product>
+        <id>5</id>
+        <category>mobile</category>
+        <brand>OnePlus</brand>
+        <name>OnePlus Nord 2T</name>
         <mrp>77,000</mrp>
         <offerprice>69,130</offerprice>
-        <image>iphone12.webp</image>
+        <image>oneplus nord 2t 5G.jpg</image>
         <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
         <qty>10</qty>
-    </product> -->
+    </product>
+     <product>
+        <id>6</id>
+        <category>mobile</category>
+        <brand>Oppo</brand>
+        <name>Oppo Reno 6 Pro</name>
+        <mrp>77,000</mrp>
+        <offerprice>69,130</offerprice>
+        <image>Oppo Reno 6 Pro 5G (Aurora, 12GB RAM, 256GB Storage).jpg</image>
+        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <qty>10</qty>
+    </product>
+     <product>
+        <id>7</id>
+        <category>mobile</category>
+        <brand>OnePlus</brand>
+        <name>OnePlus 10T</name>
+        <mrp>77,000</mrp>
+        <offerprice>69,130</offerprice>
+        <image>m-oneplus 10T 5G.jpg</image>
+        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <qty>10</qty>
+    </product>
+     <product>
+        <id>8</id>
+        <category>mobile</category>
+        <brand>Samsung</brand>
+        <name>Samsung-Galaxy-Z-Flip-4</name>
+        <mrp>77,000</mrp>
+        <offerprice>69,130</offerprice>
+        <image>Samsung-Galaxy-Z-Flip-4.jpg</image>
+        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <qty>10</qty>
+    </product>
+     <product>
+        <id>9</id>
+        <category>mobile</category>
+        <brand>Samsung</brand>
+        <name>Samsung-Galaxy s22 Ultra</name>
+        <mrp>77,000</mrp>
+        <offerprice>69,130</offerprice>
+        <image>samsung galaxy s22 Ultra 5G(burgundy,12GB,256 GB storage).jpg</image>
+        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <qty>10</qty>
+    </product>
     </products>
    
