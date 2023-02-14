@@ -33,7 +33,8 @@
                     <li class="nav-item dropdown  mx-auto">
                         <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Products</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Tablets</a></li>
+                            <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Tablets</a>
+                            </li>
                             <li><a class="dropdown-item" href="products.html?dataType=laptop">Computers</a></li>
                             <li><a class="dropdown-item" href="#">Wearable Tech</a></li>
                             <li><a class="dropdown-item" href="#">Headphone and Speakers</a></li>
@@ -70,7 +71,8 @@
             </div>
         </section>
     </div>
-
+    
+    
 
     <script>
         if (window.XMLHttpRequest) {
@@ -88,7 +90,7 @@
         productCategory = urlParam.get('dataType');
 
         x = productCategory == null ? 'All Products' : productCategory;
-        document.getElementById('categName').innerHTML = productCategory == null ? 'All Products' : productCategory[0].toUpperCase() + productCategory.slice(1,); 
+        document.getElementById('categName').innerHTML = productCategory == null ? 'All Products' : productCategory[0].toUpperCase() + productCategory.slice(1,);
         if (productCategory != null) {
             for (i = 0; i < xmlDoc.getElementsByTagName('product').length; i++) {
                 if (xmlDoc.getElementsByTagName('category')[i].childNodes[0].nodeValue == productCategory || xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue == productCategory) {
@@ -96,13 +98,13 @@
                 }
             }
         }
-                else {
-                    for (i = 0; i < xmlDoc.getElementsByTagName('product').length; i++) {
-                        productDiv.innerHTML += addprod(i)
-                    }
-                }
-            
-        
+        else {
+            for (i = 0; i < xmlDoc.getElementsByTagName('product').length; i++) {
+                productDiv.innerHTML += addprod(i)
+            }
+        }
+
+
 
         function addprod(i) {
             return `<div class="col-md-4 mb-4 mb-lg-4">
@@ -134,12 +136,34 @@
                                 </div>
                             </div>
                         </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}">
+                            Launch demo modal
+                        </button>         
+                        <div class="modal fade" id="modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                            <div class="modal-body">
+                                <p>${xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue}</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                        </div>
                     </div>
                 </div>`;
-            }
+        }
 
 
-        
+
     </script>
     <script src="assets/js/js.js"></script>
 </body>
