@@ -1,0 +1,38 @@
+[
+    {
+       "image": "img/home1.png",
+       "title": "Product title",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "9,99"
+    },
+    {
+       "image": "img/m-one plus 10R 5G.jpg",
+       "title": "Product title",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "9,99"
+    },
+    {
+       "image": "products/03.jpg",
+       "title": "Product title",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "9,99"
+    },
+    {
+       "image": "products/04.jpg",
+       "title": "Product title",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "9,99"
+    },
+    {
+       "image": "products/05.jpg",
+       "title": "Product title",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "9,99"
+    },
+    {
+       "image": "products/06.jpg",
+       "title": "Product title",
+       "description": "Lorem ipsum dolor sit amet consectetur.",
+       "price": "9,99"
+    }
+ ]

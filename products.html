@@ -33,18 +33,15 @@
                     <li class="nav-item dropdown  mx-auto">
                         <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Products</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Tablets</a>
+                            <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile</a>
                             </li>
-                            <li><a class="dropdown-item" href="products.html?dataType=laptop">Computers</a></li>
+                            <li><a class="dropdown-item" href="products.html?dataType=laptop">Laptops</a></li>
                             <li><a class="dropdown-item" href="#">Wearable Tech</a></li>
-                            <li><a class="dropdown-item" href="#">Headphone and Speakers</a></li>
                             <li><a class="dropdown-item" href="#">T.V and Home Cinema</a></li>
                             <li><a class="dropdown-item" href="#">Drones and Cameras</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item  mx-auto">
-                        <a class="nav-link" href="#">Sale</a>
-                    </li>
+                   
                     <li class="nav-item  mx-auto">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
@@ -113,7 +110,7 @@
 
                         </div>
                         <img src="img/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" 
-                            class="card-img-top mx-auto" alt="Laptop" style="max-width: 250px;aspect-ratio:3/3;object-fit:contain" />
+                            class="card-img-top mx-auto" alt="Laptop" height=250px width=250px style="object-fit:contain" />
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <p class="small"><a href="products.html?datatype=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>
@@ -134,25 +131,25 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}">
-                            Launch demo modal
-                        </button>         
-                        <div class="modal fade" id="modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                            <div class="modal-body">
-                                <p>${xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue}</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    
-                            </div>
+                                <button type="button" class="btn btn-outline-dark d-block mx-auto" data-bs-toggle="modal" data-bs-target="#modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}">
+                                   View More
+                                </button>         
+                                <div class="modal fade" id="modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                    <div class="modal-body">
+                                        <p>${xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue}</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            
+                                    </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -162,9 +159,10 @@
                 </div>`;
         }
 
-
+        
 
     </script>
+ 
     <script src="assets/js/js.js"></script>
 </body>
 

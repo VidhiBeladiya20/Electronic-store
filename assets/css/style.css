@@ -7,50 +7,57 @@ nav .nav-item{
     padding: 7px 23px;
         font-weight: bolder;
 }
-/* .carousel-fade .carousel-item {
-    opacity: 0;
-    transition-duration: .6s;
-    transition-property: opacity;
-   }
-   
-   .carousel-fade  .carousel-item.active,
-   .carousel-fade  .carousel-item-next.carousel-item-left,
-   .carousel-fade  .carousel-item-prev.carousel-item-right {
-     opacity: 1;
-   }
-   
-   .carousel-fade .active.carousel-item-left,
-   .carousel-fade  .active.carousel-item-right {
-    opacity: 0;
-   }
-   
-   .carousel-fade  .carousel-item-next,
-   .carousel-fade .carousel-item-prev,
-   .carousel-fade .carousel-item.active,
-   .carousel-fade .active.carousel-item-left,
-   .carousel-fade  .active.carousel-item-prev {
-    transform: translateX(0);
-    transform: translate3d(0, 0, 0);
-   }
-
-
-.para{
-    position: absolute;
-    top: 165px;
-    left: 100px;
-} */
-/* .carousel-inner .carousel-caption h5{
-    position: absolute;
-    top: -350px;
-    left: -171px;
-    color: black;
-    font-size: 60px;
-    font-weight: bold;
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
 }
-.carousel-inner .carousel-caption p{
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.btns{
     position: absolute;
-    top: -330x;
-    left: -171px;
-    color: black;
-    font-size: 40px;
-} */
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button{
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover{
+    color: #fcb941;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
+
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941!important;
+}
+.product-price{
+    color: #fcb941;
+}
+.rating{
+    font-size: 13px;
+}
+.product-item{
+    width: 300px;
+}
