@@ -105,12 +105,10 @@
         }
 
 
-
         function addprod(i) {
             return `<div class="col-md-4 mb-4 mb-lg-4">
                     <div class="card">
                         <div class="d-flex justify-content-between p-3">
-
                         </div>
                         <img src="img/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" 
                             class="card-img-top mx-auto" alt="Laptop" height=250px width=250px style="object-fit:contain" />
@@ -119,12 +117,10 @@
                                 <p class="small"><a href="products.html?datatype=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>
                                 <p class="small text-danger"><s>Rs.${xmlDoc.getElementsByTagName('mrp')[i].childNodes[0].nodeValue}</s></p>
                             </div>
-
                             <div class="d-flex justify-content-between mb-3">
                                 <h5 class="mb-0">${xmlDoc.getElementsByTagName('name')[i].childNodes[0].nodeValue}</h5>
                                 <h5 class="text-dark mb-0">Rs.${xmlDoc.getElementsByTagName('offerprice')[i].childNodes[0].nodeValue}</h5>
                             </div>
-
                             <div class="d-flex justify-content-between mb-2">
                                 <p class="text-muted mb-0">Available: <span class="fw-bold">${xmlDoc.getElementsByTagName('qty')[i].childNodes[0].nodeValue}</span></p>
                                 <div class="ms-auto text-warning">
