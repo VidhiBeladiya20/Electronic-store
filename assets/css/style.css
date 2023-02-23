@@ -1,17 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Poppins:wght@200;300;400;500;600&family=Ubuntu:wght@300;400;500;700&display=swap');
+
 *{
-    font-family: 'Dosis', sans-serif;
+    /* font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 nav .nav-item{
     padding: 7px 23px;
         font-weight: bolder;
 }
-
-
+.Services{
+    border-radius: 20px;
+}
+.Services .p-2,.m-2,img{
+    color: #001796;
+}
+.Services .col-md-3{
+    border: 2px solid grey;
+    margin: 2px;
+}
 .card{
     padding: 1.5em .5em .5em;
     border-radius: 2em;
     text-align :center;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 20px 0 30px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	border-radius: 1px;
+	background: #7ac400;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+.dbox {
+    margin-bottom: 0;
+    padding: 0;
+}
+.dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #bc9864;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.dbox p span {
+    font-weight: 500;
+    color: #bc9864;
+    display: block;
+}
+.dbox p a {
+    color: rgba(0, 0, 0, 0.8);
+}
+#contactForm .form-control {
+    font-size: 16px;
+}
+.col-md-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.btn.btn-primary {
+    background: #bc9864 !important;
+    border-color: #bc9864 !important;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contactForm .btn {
+    width: 100%;
+    display: block;
+}
+.form-group .form-control{
+    height: 48px;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }

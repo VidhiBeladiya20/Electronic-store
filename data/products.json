@@ -1,38 +1,34 @@
-[
-    {
-       "image": "img/home1.png",
-       "title": "Product title",
-       "description": "Lorem ipsum dolor sit amet consectetur.",
-       "price": "9,99"
-    },
-    {
-       "image": "img/m-one plus 10R 5G.jpg",
-       "title": "Product title",
-       "description": "Lorem ipsum dolor sit amet consectetur.",
-       "price": "9,99"
-    },
-    {
-       "image": "products/03.jpg",
-       "title": "Product title",
-       "description": "Lorem ipsum dolor sit amet consectetur.",
-       "price": "9,99"
-    },
-    {
-       "image": "products/04.jpg",
-       "title": "Product title",
-       "description": "Lorem ipsum dolor sit amet consectetur.",
-       "price": "9,99"
-    },
-    {
-       "image": "products/05.jpg",
-       "title": "Product title",
-       "description": "Lorem ipsum dolor sit amet consectetur.",
-       "price": "9,99"
-    },
-    {
-       "image": "products/06.jpg",
-       "title": "Product title",
-       "description": "Lorem ipsum dolor sit amet consectetur.",
-       "price": "9,99"
-    }
- ]
+{
+   "phoneCompany": [
+     {
+       "id": 1,
+       "pname": "Apple",
+       "image": "m-iphone13 pro.jpg",
+       "offerprice":"40000",
+       "price":"50000"
+      },
+     {
+       "id": 2,
+       "pname": "Apple",
+       "image": "m-iphone13 pro.jpg",
+       "offerprice":"40000",
+       "price":"50000"
+     },
+     {
+       
+      "id": 3,
+      "pname": "Apple",
+      "image": "m-iphone13 pro.jpg",
+      "offerprice":"40000",
+      "price":"50000"
+     },
+     {
+       
+      "id": 4,
+      "pname": "Apple",
+      "image": "m-iphone13 pro.jpg",
+      "offerprice":"40000",
+      "price":"50000"
+     }
+   ]
+ }
