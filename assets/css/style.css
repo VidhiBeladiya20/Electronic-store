@@ -12,18 +12,25 @@
 }
 nav .nav-item{
     padding: 7px 23px;
-        font-weight: bolder;
+    font-size:18px ;
 }
-.Services{
-    border-radius: 20px;
-}
-.Services .p-2,.m-2,img{
-    color: #001796;
-}
-.Services .col-md-3{
-    border: 2px solid grey;
-    margin: 2px;
-}
+
+/* #cover{background-image: url("img/home1.png");
+height: 100vh;
+width: 100%;
+background-size: cover;} */
+
+
+/* .top-left {
+    position: absolute;
+    top: -292px;
+    left: -104px;
+  }
+  p.top-left{
+    position: absolute;
+    top: -222px;
+    left: -104px;
+  } */
 .card{
     padding: 1.5em .5em .5em;
     border-radius: 2em;
@@ -51,54 +58,61 @@ h2::after {
 	right: 0;
 	bottom: -20px;
 }
-.dbox {
-    margin-bottom: 0;
+.collection img{
+    object-fit: contain;
+    height: 148px;
+    width: 159px;
+    padding: 40px;
+    background-color: rgba(114, 109, 109, 0.2);
+  }
+  .collection img:hover{
+    background-color: rgb(199 199 199);
+  }
+  .contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid black;
     padding: 0;
-}
-.dbox .icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #bc9864;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.dbox p span {
-    font-weight: 500;
-    color: #bc9864;
+    font-size: 16px
+  }
+  .form-control {
+    height: 52px;
+    background: transparent;
     display: block;
-}
-.dbox p a {
-    color: rgba(0, 0, 0, 0.8);
-}
-#contactForm .form-control {
-    font-size: 16px;
-}
-.col-md-12 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.form-group {
+      width: 100%;
+  }
+  .form-group{
     margin-bottom: 1rem;
-}
-.btn.btn-primary {
-    background: #bc9864 !important;
-    border-color: #bc9864 !important;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.contactForm .btn {
-    width: 100%;
-    display: block;
-}
-.form-group .form-control{
+  }
+  .info-wrap .dbox{
+    margin-bottom: 25px;
+  }
+  .form-group .form-control{
     height: 48px;
+    margin-bottom: 23px;
+  }
+  .info-wrap .dbox p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .info-wrap .dbox p a {
+    color: rgba(141, 135, 135, 0.3);
+  }
+  .info-wrap .dbox .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .info-wrap .dbox .icon span {
+    font-size: 20px;
+    color: #000;
+  }
+
+
+
+@media(min-width:993px){
+    #form{
+        width: 880px;
+    }
 }
 
-*, *::before, *::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}

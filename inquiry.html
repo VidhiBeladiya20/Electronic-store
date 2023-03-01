@@ -17,7 +17,7 @@
 
 <body>
     <!-- Navbar Starts Here -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #edecec;">
         <div class="container-fluid text-center">
             <a class="navbar-brand" href="#">Electro Mart</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -36,7 +36,7 @@
                             <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Ipad</a></li>
                             <li><a class="dropdown-item" href="products.html?dataType=laptop">Laptops</a></li>
                             <li><a class="dropdown-item" href="#">Wearable Tech</a></li>
-                            <li><a class="dropdown-item" href="#">T.V and Home Cinema</a></li>
+                            <li><a class="dropdown-item" href="#">Home Appliances</a></li>
                         </ul>
                     </li>
                     <li class="nav-item  mx-auto">
@@ -56,69 +56,27 @@
             </div>
         </div>
     </nav>
+    <!-- background: linear-gradient(135deg,rgb(244 251 252),rgb(136, 160, 165)) 100%  -->
+    <!-- background-color: rgb(223, 234, 236) -->
 
-    <section class="ftco-section">
-        <div class="container" style="width:880px;background-color: #f0ecec; border-radius: 19px;">
+    <section class="ftco-section p-5">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section">Contact Us</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-12">
+                <div class="col-md-10">
                     <div class="wrapper">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 mb-5">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="dbox w-100 text-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa fa-globe"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><span>Website :</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dbox w-100 text-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa fa-phone"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dbox w-100 text-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <span class="fa fa-paper-plane"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><span>Email:</span> <a
-                                                        href="/cdn-cgi/l/email-protection#ddb4b3bbb29da4b2a8afaeb4a9b8f3beb2b0"><span
-                                                            class="__cf_email__"
-                                                            data-cfemail="553c3b333a152c3a2027263c21307b363a38">"electromart@gmail.com"</span></a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="contact-wrap">
-                                    <h3 class="mb-4 text-center">Get in touch with us</h3>
-                                    <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
-                                    <!-- <div id="form-message-success" class="mb-4 w-100 text-center">
-                                        Your message was sent, thank you!
-                                    </div> -->
+                        <div class="row no-gutters">
+                            <div class="col-md-6 col-sm-12" style="padding:0">
+                                <div class="contact-wrap w-100 p-lg-5 p-4"
+                                    >
+                                    <!-- #818488 -->
+                                    <h3 class="mb-5 text-black">Get In Touch</h3>
+                                    <div id="form-message-warning" class="mb-4"></div>
                                     <form method="POST" id="contactForm" name="contactForm" class="contactForm">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="name" id="name"
-                                                        placeholder="Name" style="height: 48px;">
+                                                        placeholder="Name">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -136,17 +94,71 @@
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <textarea name="message" class="form-control" id="message" cols="30"
-                                                        rows="8" placeholder="Message" style="height:inherit !important" ></textarea>
+                                                        rows="6" placeholder="Message"
+                                                        style="height: inherit !important;"></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                    <input type="submit" value="Send Message" class="btn btn-primary"
+                                                        style="padding: 12px 16px;border-width: 1px;border-radius: 5px;font-size: 14px;
+font-weight: 400;box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);
+position: relative;
+margin-bottom: 20px;box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);
+position: relative;
+margin-bottom: 20px;display: inline-block;background: black !important;
+border-color: black !important;
+color: #fff;">
                                                     <div class="submitting"></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-stretch"
+                                style="padding:0;background-color: rgb(223, 234, 236)">
+                                <div class="info-wrap w-100 p-lg-5 p-4 img">
+                                    <h3
+                                        style="color: #000;
+                                    position: relative;line-height: 1.5;font-weight: 400;margin-bottom: 0.5rem;margin-top: 0;">
+                                        Contact us</h3>
+                                    
+                                    <img src="img/contact1.svg" class="mb-3" alt="" height="200px" width="430px">
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center"
+                                            style="margin-right: 17px;">
+                                            <span class="fa fa-phone"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p style="color:black;text-decoration: none;"><span>Phone
+                                                    :&nbsp;&nbsp;</span> <a href="tel://1234567920"
+                                                    style="color:black;text-decoration: none;">+ 01 234 567 88</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center"
+                                            style="margin-right: 17px;">
+                                            <span class="fa fa-paper-plane"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p style="color:black;text-decoration: none;"><span>Email
+                                                    :&nbsp;&nbsp;</span> <a href=""><span class="_cf_email_"
+                                                        style="color:black;text-decoration: none;">electromart20@gmail.com</span></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="dbox w-100 d-flex align-items-center">
+                                        <div class="icon d-flex align-items-center justify-content-center"
+                                            style="margin-right: 17px;">
+                                            <span class="fa fa-globe"></span>
+                                        </div>
+                                        <div class="text pl-3">
+                                            <p style="color:black;text-decoration: none;"><span>Website
+                                                    :&nbsp;&nbsp;</span> <a href="#"
+                                                    style="color:black;text-decoration: none;">electromart.com</a></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -155,6 +167,95 @@
             </div>
         </div>
     </section>
+
+
+    <footer class="text-center text-lg-start text-white p-2" style="background-color: #070708 ; margin-top: 35px;">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <section class="">
+            <div class="container text-center text-md-start">
+                <div class="row mt-3">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Products</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="products.html?dataType=mobile" class="text-white text-decoration-none">Mobile
+                                Phones</a>
+                        </p>
+                        <p>
+                            <a href="products.html?dataType=tablet" class="text-white text-decoration-none">Tablet And
+                                iPad</a>
+                        </p>
+                        <p>
+                            <a href="products.html?dataType=accessory"
+                                class="text-white text-decoration-none">Accessories</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="index.html" class="text-white text-decoration-none">Home</a>
+                        </p>
+                        <p>
+                            <a href="products.html" class="text-white text-decoration-none">Explore Products</a>
+                        </p>
+                        <p>
+                            <a href="aboutus.html" class="text-white text-decoration-none">About Us</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fa fa-home mr-3"></i> Surat, Gujarat, India</p>
+                        <p><i class="fa fa-envelope mr-3"></i> electromart@gmail.com</p>
+                        <p><i class="fa fa-phone mr-3"></i> +91 99999 99999</p>
+                        <p><i class="fa fa-print mr-3"></i> +91 99999 46666</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright:
+            <a class="text-white text-decoration-none" href="index.html">Electro Mart</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
