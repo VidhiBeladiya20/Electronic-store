@@ -13,6 +13,19 @@
     <!--Icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Electronic Store</title>
+
+    <script type="text/javascript" src="assets/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("form").submit(function(e){
+                alert("successfully submitted");
+            });
+            $("button").click(function(){
+                $("form").submit();
+            });
+        });
+    </script>
+
 </head>
 
 <body>
@@ -99,7 +112,7 @@
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="submit" value="Send Message" class="btn btn-primary"
+                                                    <input type="submit" value="Send Message" name="submit" class="btn btn-primary"
                                                         style="padding: 12px 16px;border-width: 1px;border-radius: 5px;font-size: 14px;
 font-weight: 400;box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);
 position: relative;
