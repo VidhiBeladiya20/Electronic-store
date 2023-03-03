@@ -17,51 +17,58 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>Electronic Store</title>
+
+    <style>
+      .card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align :center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+    </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light "  style="background-color: #edecec;">
-        <div class="container-fluid text-center">
-            <a class="navbar-brand" href="#">Electro Mart</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
-                    <li class="nav-item  mx-auto">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown  mx-auto">
-                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">Products</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Ipad</a>
-                            </li>
-                            <li><a class="dropdown-item" href="products.html?dataType=laptop">Laptops</a></li>
-                            <li><a class="dropdown-item" href="products.html?dataType=Wearable Tech">Wearable Tech</a></li>
-                            <li><a class="dropdown-item" href="products.html?dataType=Home Appliances">Home Appliances</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item  mx-auto">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item  mx-auto">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item  mx-auto">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-
-                <i class="fa fa-search ms-4 text-center" style="font-size:27px"></i>
-                <i class="fa fa-shopping-cart ms-4 text-center " style="font-size:27px"></i>
-                <i class="fa fa-user-circle text-center text-dark ms-4 me-2" data-toggle="modal" data-target="#myModal"
-                    style="font-size:27px"></i>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light "  style="background-color: #edecec;">
+    <div class="container-fluid text-center">
+        <a class="navbar-brand" href="#">Electro Mart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                <li class="nav-item  mx-auto">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown  mx-auto">
+                    <a class="nav-link dropdown-toggle" href="products.html" role="button"
+                        data-bs-toggle="dropdown">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="products.html?dataType=mobile">Mobile and Ipad</a></li>
+                        <li><a class="dropdown-item" href="products.html?dataType=laptop">Laptops</a></li>
+                        <li><a class="dropdown-item" href="products.html?dataType=Wearable Tech">Wearable Tech</a></li>
+                        <li><a class="dropdown-item" href="products.html?dataType=Home Appliances">Home Appliances</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item  mx-auto">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item  mx-auto">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item  mx-auto">
+                    <a class="nav-link" href="inquiry.html">Contact Us</a>
+                </li>
+            </ul>
+            <i class="fa fa-search ms-4 text-center" style="font-size:27px"></i>
+            <i class="fa fa-shopping-cart ms-4 text-center " style="font-size:27px"></i>
+            <i class="fa fa-user-circle text-center text-dark ms-4 me-2" data-toggle="modal" data-target="#myModal"
+                style="font-size:27px"></i>
         </div>
-    </nav>
+    </div>
+</nav>
     <div class="container mt-4">
         <h1 id="categName"></h1>
         <section style="background-color: #eee;">

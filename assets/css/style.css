@@ -31,12 +31,7 @@ background-size: cover;} */
     top: -222px;
     left: -104px;
   } */
-.card{
-    padding: 1.5em .5em .5em;
-    border-radius: 2em;
-    text-align :center;
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
+
 h2 {
 	color: #000;
 	font-size: 26px;
