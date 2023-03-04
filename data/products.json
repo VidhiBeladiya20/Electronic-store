@@ -1,34 +1,28 @@
 {
-   "phoneCompany": [
-     {
-       "id": 1,
-       "pname": "Apple",
-       "image": "m-iphone13 pro.jpg",
-       "offerprice":"40000",
-       "price":"50000"
-      },
-     {
-       "id": 2,
-       "pname": "Apple",
-       "image": "m-iphone13 pro.jpg",
-       "offerprice":"40000",
-       "price":"50000"
-     },
-     {
-       
+  "phoneCompany": [
+    {
+      "id": 1,
+      "name": "mobile",
+      "Brandlogo": "t4.jpg",
+      "pname":"Mobile"
+    },
+    {
+      "id": 2,
+      "name": "laptop",
+      "Brandlogo": "t5.jpg",
+      "pname":"laptop"
+    },
+    {
       "id": 3,
-      "pname": "Apple",
-      "image": "m-iphone13 pro.jpg",
-      "offerprice":"40000",
-      "price":"50000"
-     },
-     {
-       
+      "name": "Home Appliances",
+      "Brandlogo": "t9.jpg",
+      "pname":"Home Appliances"
+    },
+    {
       "id": 4,
-      "pname": "Apple",
-      "image": "m-iphone13 pro.jpg",
-      "offerprice":"40000",
-      "price":"50000"
-     }
-   ]
- }
+      "name": "Wearable Tech",
+      "Brandlogo": "t7.jpg",
+      "pname":"Wearable Tech"
+    }
+  ]
+}
