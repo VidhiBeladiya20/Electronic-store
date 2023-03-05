@@ -13,11 +13,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!--Icon link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
   <link rel="stylesheet" type="text/css" href="slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   <title>Electronic Store</title>
-
   <style>
     .card {
       padding: 1.5em .5em .5em;
@@ -27,9 +25,8 @@
     }
   </style>
 </head>
-
 <body>
-
+  <!-- navbar start  -->
   <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #edecec;">
     <div class="container-fluid text-center">
       <a class="navbar-brand mx-auto" href="index.html"><img src="img/logo.png"
@@ -70,6 +67,8 @@
       </div>
     </div>
   </nav>
+  <!-- navbar end  -->
+
   <div class="container mt-4">
     <h1 id="categName"></h1>
     <section style="background-color: #eee;">
@@ -78,15 +77,12 @@
       </div>
     </section>
   </div>
+
   <footer class="text-center text-lg-start text-white p-2" style="background-color: #070708 ; margin-top: 35px;">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
-      <!-- Left -->
       <div class="me-5 d-none d-lg-block">
         <span>Get connected with us on social networks:</span>
       </div>
-      <!-- Left -->
-
-      <!-- Right -->
       <div>
         <a href="" class="me-4 text-reset">
           <i class="fab fa-facebook-f"></i>
@@ -107,9 +103,7 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
-      <!-- Right -->
     </section>
-    <!-- Section: Social media -->
     <section class="">
       <div class="container text-center text-md-start">
         <div class="row mt-3">
@@ -164,13 +158,12 @@
         </div>
       </div>
     </section>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center p-3" style="background-color: rgba(114, 109, 109, 0.2)">
       © 2023 Copyright:
       <a class="text-white text-decoration-none" href="index.html">Electro Mart</a>
     </div>
   </footer>
-
-
+<!-- footer end  -->
 
   <script>
     if (window.XMLHttpRequest) {
@@ -186,7 +179,6 @@
     urlStr = window.location.search;
     urlParam = new URLSearchParams(urlStr);
     productCategory = urlParam.get('dataType');
-
     x = productCategory == null ? 'All Products' : productCategory;
     document.getElementById('categName').innerHTML = productCategory == null ? 'All Products' : productCategory[0].toUpperCase() + productCategory.slice(1,);
     if (productCategory != null) {
@@ -253,14 +245,11 @@
     </div>
   </div>
 </div>`;
-}
+    }
   </script>
-
   <script src="assets/js/js.js"></script>
-
-
+  
   <!-- modal form -->
-
   <div class="modal fade" id="myModal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -304,7 +293,6 @@
 
   <script type="text/javascript"></script>
   <script>
-
     function vali() {
       console.log("Scrip load");
       let email = $('#email').val();
@@ -332,79 +320,6 @@
       return flag;
     }
   </script>
-
 </body>
-
 </html>
 
-
-
-<!-- 
-<div class="col-md-4 mb-4 mb-lg-4">
-  <div class="card">
-      <div class="d-flex justify-content-between p-3">
-      </div>
-      <img src="img/${xmlDoc.getElementsByTagName('image')[i].childNodes[0].nodeValue}" 
-          class="card-img-top mx-auto" alt="Laptop" height=250px width=250px style="object-fit:contain" />
-      <div class="card-body">
-          <div class="d-flex justify-content-between">
-              <p class="small"><a href="products.html?datatype=${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}" class="text-muted">${xmlDoc.getElementsByTagName('brand')[i].childNodes[0].nodeValue}</a></p>
-              <p class="small text-danger"><s>Rs.${xmlDoc.getElementsByTagName('mrp')[i].childNodes[0].nodeValue}</s></p>
-          </div>
-          <div class="d-flex justify-content-between mb-3">
-              <h5 class="mb-0">${xmlDoc.getElementsByTagName('name')[i].childNodes[0].nodeValue}</h5>
-              <h5 class="text-dark mb-0">Rs.${xmlDoc.getElementsByTagName('offerprice')[i].childNodes[0].nodeValue}</h5>
-          </div>
-          <div class="d-flex justify-content-between mb-2">
-              <p class="text-muted mb-0">Available: <span class="fw-bold">${xmlDoc.getElementsByTagName('qty')[i].childNodes[0].nodeValue}</span></p>
-              <div class="ms-auto text-warning">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-              </div>
-              </div>
-              <button type="button" class="btn btn-outline-dark d-block mx-auto" data-bs-toggle="modal" data-bs-target="#modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}">
-                 View More
-              </button>         
-              <div class="modal fade" id="modalid${xmlDoc.getElementsByTagName('id')[i].childNodes[0].nodeValue}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                  <div class="modal-content">
-                      <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                  <div class="modal-body">
-                      <p>${xmlDoc.getElementsByTagName('description')[i].childNodes[0].nodeValue}</p>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          
-                  </div>
-              </div>
-          </div>
-  </div>
-</div>
-  
-      </div>
-  </div>
-</div> 
-
-
-
-
-                      <ul class="ftco-social text-center">
-                        <li class="ftco-animate"><a href="#"
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-google"></span></a></li>
-                        <li class="ftco-animate"><a href="#"
-                                class="d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-instagram"></span></a></li>
-                    </ul>-->
