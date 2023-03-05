@@ -12,13 +12,18 @@
   <!--Icon link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <title>Electronic Store</title>
+  <style>
+    .trending:hover{
+      box-shadow: 0 5px 10px rgb(0 0 0 / 70%);
+    }
+  </style>
 </head>
 
 <body>
   <!-- Navbar Starts Here -->
   <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #edecec;">
     <div class="container-fluid text-center">
-      <a class="navbar-brand" href="#">Electro Mart</a>
+      <a class="navbar-brand mx-auto" href="index.html"><img src="img/logo.png" style="width: 180px; margin-left: 7px;"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -111,7 +116,7 @@
             <h1>Up to<br>
               30% off</h1>
               <p>Selected Smartphone Brands</p>
-              <button class="btn btn-light rounded-5" style="width: 100px;">Shop</button>
+              <button id="btn1" class="btn btn-light rounded-5" style="width: 100px;">Shop</button>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 position-relative text-white">
@@ -122,7 +127,7 @@
               Sound <br>
             Anywhere</h1>
               <p>Top Headphone Brands</p>
-              <button class="btn btn-light rounded-5" style="width: 100px;">Shop</button>
+              <button id="btn2" class="btn btn-light rounded-5" style="width: 100px;">Shop</button>
           </div>
         </div>
       </div>
@@ -314,7 +319,7 @@
 
             <div class="col-md-2 text-center">
               <a href="Products.html?dataType=${data.phoneCompany[i].name}">
-              <img src="img/${data.phoneCompany[i].Brandlogo}" alt="" height="128px" width="150px"></a>
+              <img class="trending" src="img/${data.phoneCompany[i].Brandlogo}" alt="" height="128px" width="150px"></a>
               <p class="text-center">${data.phoneCompany[i].pname}</p>
             </div>
           

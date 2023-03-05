@@ -20,7 +20,7 @@
         <offerprice>46,130</offerprice>
         <image>m-iphone13 pro.jpg</image>
         <description>iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. A big leap in battery life, a durable design, and a bright Super Retina XDR display facilitate boosting your user experience.</description>
-        <qty>10</qty>
+        <qty>7</qty>
     </product>
     <product>
         <id>3</id>
@@ -31,106 +31,74 @@
         <offerprice>86,130</offerprice>
         <image>m-iphone14 plus .jpg</image>
         <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
-        <qty>10</qty>
+        <qty>3</qty>
     </product>
         <product>
         <id>4</id>
         <category>mobile</category>
         <brand>Apple</brand>
-        <name>iPhone 11 pro max</name>
-        <mrp>1,36,000</mrp>
-        <offerprice>86,130</offerprice>
-        <image>m-iphone11 pro max.jpg</image>
-        <description>New iPhone 14 Plus has a supersized Super Retina XDR display. Longest battery life ever. A new Main camera and improved image processing let you capture even more sensational shots in all kinds of light — especially low light</description>
-        <qty>10</qty>
+        <name>Apple iPad Pro</name>
+        <mrp>81,900</mrp>
+        <offerprice>76,100</offerprice>
+        <image>Apple iPad Pro.jpg</image>
+        <description>Apple iPad Pro 11 inch M2 (4th Generation) MNXD3HN/A 128 GB Wi-Fi (Space Grey).11-inch LED-backlit Multi-Touch display with IPS technology,ProMotion technology,True Tone display,Apple M2 chip,8-core CPU,10-core GPU,16-core Neural Engine,12MP Wide 10MP Ultra Wide Camera With LiDAR,Up to 10 hours of surfing the web on Wi-Fi,1 Year Manufacturer Warranty.</description>
+        <qty>9</qty>
     </product>
     <product>
         <id>5</id>
         <category>mobile</category>
         <brand>OnePlus</brand>
         <name>OnePlus Nord 2T</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>28,999</mrp>
+        <offerprice>26,999</offerprice>
         <image>oneplus nord 2t 5G.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <description>OnePlus Nord 2T 5G (8 GB RAM, 128 GB ROM, Jade Fog).OxygenOS Based on Android™ 12,6.43 inches (16.33 cm) 90Hz AMOLED HDR10+ certified Display,MediaTek Dimensity 1300 Processor,Corning Gorilla Glass 5 Protection,ARM Mali-G77 MC9 GPU,8GB LPDDR4X RAM,128GB UFS3.1 ROM,50 MP + 8 MP + 2 MP Rear Camera's,32 MP Single Selfie Camera,Dual stereo speaker,Noise cancellation support,1 Year Manufacturer Warranty</description>
+        <qty>11</qty>
     </product>
      <product>
         <id>6</id>
         <category>mobile</category>
         <brand>Oppo</brand>
         <name>Oppo Reno 6 Pro</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>46,990</mrp>
+        <offerprice>37,999</offerprice>
         <image>Oppo Reno 6 Pro 5G (Aurora, 12GB RAM, 256GB Storage).jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <description>Oppo Reno 6 Pro 5G (Stellar Black, 12GB RAM, 256GB Storage), Medium (CPH2249).The phone comes with a 6.55-inch touchscreen AMOLED display and features a 12 GB RAM along with a 256 GB internal memory. The phone is also decked with 64MP + 8MP + 2MP + 2MP rear camera and 32MP front camera for your images and videos.</description>
+        <qty>15</qty>
     </product>
-     <product>
-        <id>7</id>
-        <category>mobile</category>
-        <brand>OnePlus</brand>
-        <name>OnePlus 10T</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>m-oneplus 10T 5G.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
-    </product>
-     <product>
-        <id>8</id>
-        <category>mobile</category>
-        <brand>Samsung</brand>
-        <name>Galaxy-Z-Flip-4</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>Samsung-Galaxy-Z-Flip-4.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
-    </product>
-     <product>
-        <id>9</id>
-        <category>mobile</category>
-        <brand>Samsung</brand>
-        <name>Galaxy s22 Ultra</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>samsung galaxy s22 Ultra 5G(burgundy,12GB,256 GB storage).jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
-    </product>
+     
 
      <product>
         <id>1</id>
         <category>laptop</category>
         <brand>Apple</brand>
         <name>MacBook Air Laptop M1</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>99,900</mrp>
+        <offerprice>82,900</offerprice>
         <image>Apple 2020 MacBook Air Laptop M1  8GB RAM, 256GB SSD Storage.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <description>Apple 2020 MacBook Air M1 Chip MGND3HN/A Laptop (8GB RAM/ 256GB SSD/ 13.3-inch (33.74 cm) Display/ 8-core CPU/ 7-core GPU/ mac OS/ Gold).8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU,16-core Neural Engine,Stereo speakers,Wide stereo sound,Support for Dolby Atmos playback,1 Year Manufacturer Warranty.</description>
+        <qty>4</qty>
     </product>
      <product>
         <id>2</id>
         <category>laptop</category>
         <brand>HP</brand>
-        <name>HP 15 11th gen</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>HP 15 11th gen.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <name>HP Victus Gaming Laptop</name>
+        <mrp>83,038</mrp>
+        <offerprice>79,760</offerprice>
+        <image>HP Victus Gaming Laptop.jpg</image>
+        <description>HP Victus Gaming Laptop 15-fa0165TX (12th Gen Core i5 / 8GB RAM/ 512 GB SSD/ 15.6 inch ( 39.62 cm) Display/ 4 GB GTX Graphics/ Windows 11/ Office).Windows 11 Home,15.6 inch ( 39.6 cm) Diagonal, FHD (1920 x 1080), 144 Hz, 9 ms response time, IPS,micro-edge, anti-glare Display,12th Generation Core i5 Processor,8 GB DDR4-3200 MHz RAM (1 x 8 GB),512 GB PCIe® NVMe™ TLC M.2 SSD,NVIDIA® GeForce® GTX 1650 Laptop 4 GB GDDR6 GPU, Dual speakers; HP Audio Boost,1 Year Manufacturer Warranty</description>
+        <qty>8</qty>
     </product>
      <product>
         <id>3</id>
         <category>laptop</category>
         <brand>Asus</brand>
         <name>Asus vivobook 16x</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>74,990</mrp>
+        <offerprice>52,990</offerprice>
         <image>Asus vivobook 16x laptop.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <description>Asus Vivobook 16X M1603QA-MB511WS (AMD Ryzen 5/ 16 GB RAM / 512GB SSD / 16.0 inch (40.64 cm) Display / AMD Radeon™ Vega 7 Graphics / Windows 11/MSO).16 GB (8GB DDR4 on board + 8GB DDR4 SO-DIMM) RAM,512GB M.2 NVMe™ PCIe® 3.0 SSD,AMD Radeon™ Vega 7 Graphics,SonicMaster,1 Year Manufacturer Warranty..</description>
         <qty>10</qty>
     </product>
      <product>
@@ -138,10 +106,10 @@
         <category>laptop</category>
         <brand>Lenovo</brand>
         <name>Lenovo IdeaPad-3</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>62,890</mrp>
+        <offerprice>36,490</offerprice>
         <image>Laptop-LENOVO-IdeaPad-3.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <description>Lenovo IdeaPad 3 14ITL05 81X700DWIN Laptop (11thCore i3 / 8 GB RAM / 256 GB SSD / 14 inch(35.56 cm) Display / intel graphics / Windows 11/ Office).256GB SSD M.2 2242 PCIe 3.0x4 NVMe,Intel UHD Graphics,Stereo speakers, 1.5W x2, Dolby Audio,1 Year Manufacturer Warranty</description>
         <qty>10</qty>
     </product>
      <product>
@@ -149,154 +117,154 @@
         <category>laptop</category>
         <brand>Apple</brand>
         <name>MacBook Pro 13</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>1,29,900</mrp>
+        <offerprice>1,19,580</offerprice>
         <image>MacBook_Pro_13.jpg</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <description>Apple MacBook Pro 13 M2 chip MNEP3HN/A Laptop (8GB RAM/256 GB SSD/13.3-inch (33.74 cm) Display/8-core CPU/10-core GPU /macOS/Silver).Apple M2 chip,8GB unified memory,256GB SSD,8-core CPU with 4 performance cores and 4 efficiency cores,10-core GPU,16-core Neural Engine,100GB/s memory bandwidth,1 Year Manufacturer Warranty.</description>
+        <qty>14</qty>
     </product>
      <product>
         <id>6</id>
         <category>laptop</category>
         <brand>Asus</brand>
         <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
+        <mrp>58,990 </mrp>
+        <offerprice>42,900</offerprice>
         <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <description>Asus VivoBook K15 K513EA-L302WS OLED Laptop (11th Gen Core i3/ 8GB RAM/ 256GB SSD/ 15.6 inch (39.62 cm) Display/ Intel UHD Graphics/ Win 11/ Office).Built-in microphone//harman/kardon (Mainstream),Built-in speaker,Audio by ICEpower® Office Home and Student 2021 included,1 Year Manufacturer Warranty.</description>
+        <qty>5</qty>
     </product>
      <product>
         <id>1</id>
         <category>Wearable Tech</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>JBL</brand>
+        <name>JBL Wave 200TWS</name>
+        <mrp>5,999</mrp>
+        <offerprice>2,699</offerprice>
+        <image>JBL Wave 200TWS.png</image>
+        <description>JBL Wave 200TWS Truly Wireless Earbuds with JBL Deep Bass Sound, 20 Hours of combined Playback (Black).True Wireless Earbuds.JBL Deep Bass Sound.20 Hours of Combined Playback Voice Assistant Support IPX Rated Dual Connect Technology 1 Year Manufacturer Warranty</description>
+        <qty>6</qty>
     </product>
      <product>
         <id>2</id>
         <category>Wearable Tech</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>Sony</brand>
+        <name>Sony WI-C100 Wireless Neckband</name>
+        <mrp>2,790</mrp>
+        <offerprice>1,340</offerprice>
+        <image>Sony WI-C100 In-Ear Wireless Neckband.jpg</image>
+        <description>Sony WI-C100 In-Ear Wireless Neckband with IPX4 water resistance up to 25 hours battery life (Black).Fast Pair Connect to your PC easily with Swift Pair 360 Spatial Sound Personalizer 2.4 GHz band (2.4000 GHz/2.4835 GHz)</description>
+        <qty>9</qty>
     </product>
      <product>
         <id>3</id>
         <category>Wearable Tech</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>ColorFit</brand>
+        <name>ColorFit Pro 4 Smartwatch</name>
+        <mrp>5,999</mrp>
+        <offerprice>2,899</offerprice>
+        <image>ColorFit Pro 4 Smartwatch.jpg</image>
+        <description>Noise ColorFit Pro 4 Smartwatch with Bluetooth Calling, Digital Crown Navigation, 100 Sports Modes (Silver Grey). Date -Time Display.150+ cloud-based watch faces Activity Workouts SpO2 Heart Rate Sleep Breathe Contacts Call History Dial pad Weather Music Reminders Stopwatch Alarm World Clock Timer Stocks Watch Faces Call Function Bluetooth Calling.</description>
+        <qty>9</qty>
     </product>
      <product>
         <id>4</id>
         <category>Wearable Tech</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <brand>boAt</brand>
+        <name>boAt smart watch</name>
+        <mrp>7,999</mrp>
+        <offerprice>3,999</offerprice>
+        <image>boAt smart watch.jpg</image>
+        <description>boAt Cosmos Pro Bluetooth Calling Smartwatch with 700+ Active Modes, Heart Rate  SpO2 Monitor, Live Cricket Scores (Active Black)</description>
         <qty>10</qty>
     </product>
      <product>
         <id>5</id>
         <category>Wearable Tech</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>boAt</brand>
+        <name>boAt Rockerz 370</name>
+        <mrp>2,499</mrp>
+        <offerprice>1,999</offerprice>
+        <image>boAt Rockerz 370.jpg</image>
+        <description>boAt Rockerz 370 On Ear Bluetooth Headphones with Up to 8 Hours of Musical Bliss, 40mm Dynamic Drivers (Buoyant Black).Bluetooth Headphones ,Bluetooth v5.0 ,40mm Dynamic Drivers,Cosy Padded Earcups,12 hours Playback Time,Ergonomically and Aesthetically Designed,1 Year Manufacturer Warranty</description>
+        <qty>11</qty>
     </product>
      <product>
         <id>6</id>
         <category>Wearable Tech</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>Apple</brand>
+        <name>Apple MagSafe Charger</name>
+        <mrp>4500</mrp>
+        <offerprice>3,999</offerprice>
+        <image>Apple MagSafe Charger.jpg</image>
+        <description>The MagSafe Charger makes wireless charging a snap he perfectly aligned magnets attach to your iPhone 13, iPhone 13 Pro, iPhone 12 and iPhone 12 Pro, and provide faster wireless charging up to 15WThe MagSafe Charger maintains compatibility with Qi charging so it can be used to wirelessly charge your iPhone 8 or later, as well as AirPods models with a wireless charging case, as you would with any Qi-certified charger.The magnetic alignment experience only applies to iPhone 13, iPhone 13 Pro, iPhone 12 and iPhone 12 Pro models.</description>
+        <qty>14</qty>
     </product>
      <product>
         <id>1</id>
         <category>Home Appliances</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
+        <brand>Blue Star</brand>
+        <name>Blue star Air Conditioner</name>
+        <mrp>51,750</mrp>
+        <offerprice>34,990</offerprice>
+        <image>Blue star Air Conditioner.jpg</image>
+        <description>Blue Star 5 in 1 Convertible 1 Ton 3 Star Inverter Split Air Conditioner with Copper Condenser, Dust Filter (SETIC312MNU).1 Ton Capacity,3 Star Energy Rating,Inverter Technology,5 in 1 Convertible,Turbo Cool,Quiet Performance,Smart Ready,PM 2.5 Filter,Activated Carbon,1 Year Manufacturer Warranty.</description>
         <qty>10</qty>
     </product>
      <product>
         <id>2</id>
         <category>Home Appliances</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>Bosch</brand>
+        <name>Bosch Inverter Refrigerator</name>
+        <mrp>59,390</mrp>
+        <offerprice>38,990</offerprice>
+        <image>Bosch Inverter Refrigerator.jpg</image>
+        <description>Bosch 358 Litres 3 Star Frost Free Double Door Inverter Refrigerator with Fresh Sense Sensor, VitaFresh Technology (CTC35S03NI, Sparkly Steel).358 Litres,3 Star Rating,Vario Inverter Compressor 6-in-1 Convertible,VitaFresh System,Stabilizer Free Operation,Air Fresh Filter,Multi Airflow System,1 Year Manufacturer Warranty.</description>
+        <qty>11</qty>
     </product>
      <product>
         <id>3</id>
         <category>Home Appliances</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>IFB</brand>
+        <name>IFB washing machine</name>
+        <mrp>22,690</mrp>
+        <offerprice>19,490</offerprice>
+        <image>IFB washing machine.jpg</image>
+        <description>IFB 5.5 Kg Fully Automatic Front Load Dryer with 6 Drying Programs and 55 RPM Tumble Speed (TURBODRY550, White).5.5 Kg Drying Capacity,6 Drying Programs,55 RPM Tumble Speed,Higher Drum Volume,Wall Mounting, Upside Down,4 Year Manufacturer Warranty.</description>
+        <qty>8</qty>
     </product>
      <product>
         <id>4</id>
         <category>Home Appliances</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>LG</brand>
+        <name>LG washing machine</name>
+        <mrp>40,990</mrp>
+        <offerprice>29,990</offerprice>
+        <image>LG washing machine.jpg</image>
+        <description>LG 6.5 Kg 5 Star Fully Automatic Front Load Washing Machine with Direct Drive Motor and AI DD Technology (FHV1265ZFW, White).AI DD™ Motor Washing Motion Optimization,TurboWash Thoroughly Clean in 59 mins,99.9%* Virus free with Steam,6 Motion for bette,wash performance,LG ThinQ - Wi-Fi Connect,Color: Black VCM (STS) with Chrome Door + Black Tint</description>
+        <qty>18</qty>
     </product>
      <product>
         <id>5</id>
         <category>Home Appliances</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>Philips</brand>
+        <name>LG 28 Litres Convection Microwave</name>
+        <mrp>25,999</mrp>
+        <offerprice>19,009</offerprice>
+        <image>LG 28 Litres Convection Microwave.jpg</image>
+        <description>LG 28 Litres Convection Microwave with Glass Door, 360° Motorised Rotisserie, Charcoal Lighting Heater, Auto Cook Menu/30 Heart Friendly Recipes. Charcoal Lighting Heater,30 Healthy Heart Auto Cook Menu,30 Heart Friendly Recipes,Ghee in 12 minutes,Diet Fry,Roti Basket,360° Motorized Rotisserie,1 Year Manufacturer Warranty.</description>
+        <qty>9</qty>
     </product>
      <product>
         <id>6</id>
         <category>Home Appliances</category>
-        <brand>Asus</brand>
-        <name>Asus vivobook 15 m513</name>
-        <mrp>77,000</mrp>
-        <offerprice>69,130</offerprice>
-        <image>vivobook 15 m513 asus.png</image>
-        <description>5G speed. A14 Bionic, the fastest chip in a smartphone. An edge-to-edge OLED display. Ceramic Shield with four times better drop performance. And Night mode on every camera. iPhone 12 has it all.</description>
-        <qty>10</qty>
+        <brand>LG</brand>
+        <name>LG Inverter Refrigerator</name>
+        <mrp>1,51,799 </mrp>
+        <offerprice>1,09,990</offerprice>
+        <image>LG  Inverter Refrigerator.jpg</image>
+        <description>LG 674 Litres Direct Cool Single Door Inverter Refrigerator with Water and Ice Dispenser, Smart Diagnosis (GC-L257SL4L, Shiny Steel). ThinQ,DoorCooling+™,Hygiene Fresh+™,Water and Ice Dispenser,Smart Diagnosis,Space Plus Ice System,1 Year Manufacturer Warranty</description>
+        <qty>6</qty>
     </product>
 
     </products>
