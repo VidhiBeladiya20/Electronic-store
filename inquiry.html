@@ -264,48 +264,88 @@ color: #fff;">
         </footer>
 
  
-  <!-- modal form -->
+ <!-- modal form -->
 
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Login</h4>
-          <button type="button" class="close btn" data-bs-dismiss="modal">&times</button>
-        </div>
-        <!-- Modal body -->
-        <div class="container">
-          <form action="">
-            <div class="mb-3 mt-3">
-              <i class="fas fa-envelope prefix grey-text"></i>
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
-            </div>
-            <div class="mb-3">
-              <i class="fas fa-lock prefix grey-text"></i>
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-            </div>
-            <div class="form-check mb-3">
-              <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="remember">&nbsp;&nbsp;&nbsp;&nbsp;
-                Remember me
-              </label>
-            </div>
-          </form>
-        </div>
+ <div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Login</h4>
+        <button type="button" class="close btn" data-bs-dismiss="modal">&times</button>
+      </div>
+      <!-- Modal body -->
+      <div class="container">
+        <form action="" onsubmit="return vali()">
+          <div class="mb-3 mt-3">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            <p id="validEmail" class="alert alert-secondary d-none">Please enter valid email..</p>
+          </div>
+          <div class="mb-3">
+            <i class="fas fa-lock prefix grey-text"></i>
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            <p id="validPassword" class="alert alert-secondary d-none">Please enter valid password..</p>
 
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="submit" class="btn btn-primary"
-            onclick="alert('Your data fill up succesfully..!')">Submit</button>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div>
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember">&nbsp;&nbsp;&nbsp;&nbsp;
+              Remember me
+            </label>
+          </div>
+          <div class=" w-100 d-flex justify-content-center  pb-4 mx-auto">
+            <button type="submit" class="btn btn-primary" style="margin-right: 30px;">Submit</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
-  <!-- modal form end -->
+</div>
+<!-- modal form end -->
+
+<script type="text/javascript"></script>
+<script>
+  
+  function vali() {
+    console.log("Scrip load");
+    let email=$('#email').val();
+    let pass=$('#pwd').val();
+    let validRegexEmail = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
+    let flag = true;
+    debugger
+    if (email.match(validRegexEmail)) {
+      $('#validEmail').addClass('d-none');
+    }
+    else {
+      $('#validEmail').removeClass('d-none');
+      flag = false;
+    }
+    if(pass){
+      $('#validPassword').addClass('d-none');
+    }
+    else{
+      $('#validPassword').removeClass('d-none');
+      flag = false;
+    }
+    if (flag) {
+      alert("We will contact you shortly....")
+    }
+    return flag;
+  }
+</script>
+
+
+
+
+
+
+
+
+  <!-- contact form validation  -->
         <script>   
           function submitForm(event){
               let name=$('#name').val();
